@@ -13,7 +13,7 @@ For convenience, the datasets are provided with a train/test split in which no m
 
 For more information about the contents of the datasets (statistics etc.) please refer to the following publication:
 
-## Download under the Creative Commons BY-NC-SA license:
+## Download under the [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/):
 ### WTL format (~8GB):
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_WTL_50k.tar.gz
 
