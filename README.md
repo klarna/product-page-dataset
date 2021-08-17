@@ -35,7 +35,7 @@ The dataset is created by the Web Automation Research team within Klarna.
 
 ## Composition
 
-###What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?
+### What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?
 The dataset contains offline copies of publicly available e-commerce product web pages.
 
 ### How many instances are there in total (of each type, if appropriate)?
@@ -91,7 +91,7 @@ The data was directly observable.
 ### If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?
 The sampling strategy was deterministic for merchants - the product pages were sampled curated by the analysts labelling the pages with a bias towards pages corresponding to product that did not require configuring (e.g. one-size fits all, default size selection etc.).
 
-###Over what timeframe was the data collected?
+### Over what timeframe was the data collected?
 The data instances in the dataset were collected between 2018 and 2019.
 
 ## Preprocessing
