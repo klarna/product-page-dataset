@@ -67,7 +67,7 @@ Some pages might be empty due to errors when loading.
 Yes, pages belonging to the same market appear in the same directory. Pages belonging to the same merchant also appear in the same directory.
 
 ### Are there recommended data splits (e.g., training, development/validation, testing)?
-Yes, the dataset is presented in a pre-made split train/validation/test split (with ratios 0.6, 0.2, 0.2).
+Yes, the dataset is presented in a pre-made split train/test split (with ratios 0.8, 0.2).
 The recommended split is done such that no merchant appears in more than 1 set so that no webpage template is present in 2 sets in order to gauge the algorithms' ability to generalise.
 
 ### Are there any errors, sources of noise, or redundancies in the dataset?
