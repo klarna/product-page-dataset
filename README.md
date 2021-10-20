@@ -20,8 +20,47 @@ https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_produc
 ### MHTML format (~51GB):
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_MHTML_50k.tar.gz
 
-### You can also find individual tarballs per market (in both formats) in this bucket. Use the AWS CLI to navigate the bucket:
-`aws s3 ls s3://klarna-research-public-datasets/klarna_product_page_dataset_50k/`
+### You can also find individual tarballs per market (in both formats) in this bucket (on region `eu-west-1`). Structure of the bucket is as follows:
+```
+s3://klarna-reserach-public-datasets 
+└── klarna_product_page_dataset_50k
+    ├── klarna_product_page_dataset_MHTML_50k
+    │   ├── AT_test.tar.gz
+    │   ├── AT_train.tar.gz
+    │   ├── DE_test.tar.gz
+    │   ├── DE_train.tar.gz
+    │   ├── FI_test.tar.gz
+    │   ├── FI_train.tar.gz
+    │   ├── GB_test.tar.gz
+    │   ├── GB_train.tar.gz
+    │   ├── NL_test.tar.gz
+    │   ├── NL_train.tar.gz
+    │   ├── NO_test.tar.gz
+    │   ├── NO_train.tar.gz
+    │   ├── SE_test.tar.gz
+    │   ├── SE_train.tar.gz
+    │   ├── US_test.tar.gz
+    │   └── US_train.tar.gz
+    ├── klarna_product_page_dataset_MHTML_50k.tar.gz
+    ├── klarna_product_page_dataset_WTL_50k
+    │   ├── AT_test.tar.gz
+    │   ├── AT_train.tar.gz
+    │   ├── DE_test.tar.gz
+    │   ├── DE_train.tar.gz
+    │   ├── FI_test.tar.gz
+    │   ├── FI_train.tar.gz
+    │   ├── GB_test.tar.gz
+    │   ├── GB_train.tar.gz
+    │   ├── NL_test.tar.gz
+    │   ├── NL_train.tar.gz
+    │   ├── NO_test.tar.gz
+    │   ├── NO_train.tar.gz
+    │   ├── SE_test.tar.gz
+    │   ├── SE_train.tar.gz
+    │   ├── US_test.tar.gz
+    │   └── US_train.tar.gz
+    └── klarna_product_page_dataset_WTL_50k.tar.gz
+```
 # Datasheets for Datasets Documentation
 
 ## Motivation
