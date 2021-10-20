@@ -20,6 +20,8 @@ https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_produc
 ### MHTML format (~51GB):
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_MHTML_50k.tar.gz
 
+### You can also find individual tarballs per market (in both formats) in this bucket. Use the AWS CLI to navigate the bucket:
+`aws s3 ls s3://klarna-research-public-datasets/klarna_product_page_dataset_50k/`
 # Datasheets for Datasets Documentation
 
 ## Motivation
