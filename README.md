@@ -119,7 +119,7 @@ For instance in the case of the product image, if they appear as part of a carou
 * Javascript execution is lost when an MHTML clone is saved. Parts of the webpages that rely on Javascript execution would then not load properly.
 
 ### Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?
-Yes. The dataset is made available via the Amazon Open Data Directory.
+Yes. The dataset is made available via the Registry of Open Data on AWS.
 
 ### Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctorpatient confidentiality, data that includes the content of individuals’ non-public communications)?
 No. Dataset contains only publicly available webpages.
