@@ -8,7 +8,7 @@ and go-to-cart buttons (if found). These labels are present in the HTML code as 
 
 The snapshots are available in 2 formats: as MHTML files and as [WebTraversalLibrary](https://github.com/klarna-incubator/webtraversallibrary) (WTL) snapshots.
 The MHTML format is less lossy, a browser can render these pages though any Javascript on the page is lost.
-The WTL snapshots are produced by loading the MHTML pages into a chromium-based browser. They contain a screenshot of the rendered MTHML page in a browser, its HTML, and page and element metadata with additional rendering information (bounding boxes of elements, font sizes etc.).
+The WTL snapshots are produced by loading the MHTML pages into a chromium-based browser. To keep the WTL dataset more compact, they do not contain the screenshot of the rendered MTHML, but only its HTML, and page and element metadata with additional rendering information (bounding boxes of elements, font sizes etc.).
 For convenience, the datasets are provided with a train/test split in which no merchants in the test set are present in the training set.
 
 For more information about the contents of the datasets (statistics etc.) please refer to the following publication:
