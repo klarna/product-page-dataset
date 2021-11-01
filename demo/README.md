@@ -2,7 +2,7 @@
 
 # Graph Neural Networks for DOM Tree ElementPrediction
 
-This repository is the official implementation of [Graph Neural Networks for DOM Tree ElementPrediction](?). 
+This repository is the official implementation of [Graph Neural Networks for Learning Representations of WebElements](?). 
 
 [comment]: <> (>📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials)
 
