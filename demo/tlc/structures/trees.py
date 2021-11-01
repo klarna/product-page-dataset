@@ -240,6 +240,7 @@ class UniversalSentenceTree(DataTree, UniversalSentenceFeatureMixin):
     Class representing the DOM tree structure with features based on the local text of a node.
     The local text is embedded by a pre-trained Universal Sentence Encoder.
     """
+    pass
 
 
 class FreeDOMStageTwoDataTree(TensorTree, FreeDOMStageTwoFeatureMixin):
