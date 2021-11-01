@@ -1,0 +1,4 @@
+ExperimentParameters.run_name = 'LSTM-BiE'
+ExperimentParameters.model_id = 'BidirectionalLSTMClassifierWithEmbeddings'
+
+HyperParameters.latent_dimension = 150

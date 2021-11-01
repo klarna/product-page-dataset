@@ -1,0 +1,4 @@
+ExperimentParameters.run_name = 'GCN-GRU'
+ExperimentParameters.model_id = 'DOMQNETClassifier'
+
+HyperParameters.latent_dimension = 225

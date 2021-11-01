@@ -1,0 +1,4 @@
+include 'gin_configs/GCN-Mean.gin'
+ExperimentParameters.run_name = 'GCN-Mean-T'
+ExperimentParameters.tree_type = 'UniversalSentenceTree'
+ExperimentParameters.n_features  = 586

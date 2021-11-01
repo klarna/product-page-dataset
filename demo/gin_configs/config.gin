@@ -1,0 +1,34 @@
+# Experiment Hyperparameters
+# ======================================================================================================================
+run.experiment_parameters = @ExperimentParameters()
+ExperimentParameters.run_name = None
+ExperimentParameters.model_id = None
+ExperimentParameters.tree_type = "DataTree"
+ExperimentParameters.n_features = 74
+ExperimentParameters.n_train_data = 10000
+ExperimentParameters.n_test_data = 10000
+ExperimentParameters.num_workers = 0
+
+get_torch_device.use_gpu = False
+
+
+# Common Hyperparameters
+# ======================================================================================================================
+run.hyper_parameters = @HyperParameters()
+HyperParameters.batch_size = 5
+HyperParameters.n_positive_samples = 5
+HyperParameters.n_negative_samples = 10
+HyperParameters.latent_dimension = None
+HyperParameters.n_epochs = 10
+HyperParameters.train_test_split_ratio = 0.7
+
+
+# Optimizer Parameters
+# ======================================================================================================================
+HyperParameters.optimizer = "Adam" # Use this parameter to change the optimizer the model will use.
+HyperParameters.optimizer_parameters = {"lr": 0.001}  # Supply optimizer parameters as a Python Dict.
+
+
+# Loss Function
+# ======================================================================================================================
+HyperParameters.loss_function = @CrossEntropyLoss() # Use this parameter to change the loss function the model will use.

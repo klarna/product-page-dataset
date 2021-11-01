@@ -1,0 +1,4 @@
+include 'gin_configs/LSTM-BiE.gin'
+ExperimentParameters.run_name = 'LSTM-BiE-T'
+ExperimentParameters.tree_type = 'UniversalSentenceTree'
+ExperimentParameters.n_features  = 586

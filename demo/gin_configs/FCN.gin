@@ -1,0 +1,5 @@
+ExperimentParameters.run_name = 'FCN'
+ExperimentParameters.model_id = 'FullyConnectedClassifier'
+
+HyperParameters.latent_dimension = 150
+HyperParameters.optimizer_parameters = {"lr": 0.01}

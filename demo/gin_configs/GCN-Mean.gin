@@ -1,0 +1,4 @@
+ExperimentParameters.run_name = "GCN-Mean"
+ExperimentParameters.model_id = "MultiLayerGCNClassifier"
+
+HyperParameters.latent_dimension = [300, 300]

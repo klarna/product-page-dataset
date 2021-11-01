@@ -1,0 +1,4 @@
+ExperimentParameters.run_name = 'LSTM-Bi'
+ExperimentParameters.model_id = 'BidirectionalLSTMClassifier'
+
+HyperParameters.latent_dimension = 150

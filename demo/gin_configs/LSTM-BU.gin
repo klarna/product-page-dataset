@@ -1,0 +1,4 @@
+ExperimentParameters.run_name = 'LSTM-BU'
+ExperimentParameters.model_id = 'BottomUpLSTMClassifier'
+
+HyperParameters.latent_dimension = 150

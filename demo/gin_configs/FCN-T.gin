@@ -1,0 +1,4 @@
+include 'gin_configs/FCN.gin'
+ExperimentParameters.run_name = 'FCN-T'
+ExperimentParameters.tree_type = 'UniversalSentenceTree'
+ExperimentParameters.n_features  = 586

@@ -1,0 +1,4 @@
+ExperimentParameters.run_name = 'GAT'
+ExperimentParameters.model_id = 'GATClassifier'
+
+HyperParameters.latent_dimension = 150

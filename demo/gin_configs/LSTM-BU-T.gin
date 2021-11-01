@@ -1,0 +1,4 @@
+include 'gin_configs/LSTM-BU.gin'
+ExperimentParameters.run_name = 'LSTM-BU-T'
+ExperimentParameters.tree_type = 'UniversalSentenceTree'
+ExperimentParameters.n_features  = 586
