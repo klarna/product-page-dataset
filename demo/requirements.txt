@@ -14,8 +14,9 @@ multiprocess==0.70.*
 gin-config==0.4.0
 click==7.1.2
 wheel==0.34.*
-tensorflow
-tensorflow-hub
+tensorflow==2.6.*
+tensorflow-hub==0.9.*
+tensorflow-estimator==2.6.0
 black==21.5b1
 pytest==6.2.4
 pylint==2.8.2

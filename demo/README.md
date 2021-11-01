@@ -11,13 +11,13 @@ This repository is the official implementation of [Graph Neural Networks for Lea
 To install requirements:
 
 
-- Install python 3.7
-
+- Install `python 3.7`
+- Install the `wget` utility
 - Run:
 ```setup
 make env-create
-make download-requirements
 source .venv/bin/activate
+make download-requirements
 ```
 
 [comment]: <> (>📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...)
