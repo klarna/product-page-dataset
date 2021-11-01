@@ -1,0 +1,4 @@
+include 'gin_configs/GCN-GRU.gin'
+ExperimentParameters.run_name = 'GCN-GRU-T'
+ExperimentParameters.tree_type = 'UniversalSentenceTree'
+ExperimentParameters.n_features  = 586

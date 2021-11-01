@@ -1,0 +1,4 @@
+ExperimentParameters.run_name = 'TE'
+ExperimentParameters.model_id = 'TransformerEncoderClassifier'
+
+HyperParameters.latent_dimension = 300

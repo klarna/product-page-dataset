@@ -1,0 +1,9 @@
+main.num_workers = 0
+main.n_data = 10000
+main.batch_size = 1000
+main.n_positive_samples = 5
+main.n_negative_samples = 5
+main.tree_type = "DataTree"
+
+get_torch_device.use_gpu = True
+

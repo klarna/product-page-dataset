@@ -1,0 +1,44 @@
+ExperimentParameters.run_name = 'freedom_stage1'
+ExperimentParameters.model_id = "FreeDOMClassifier"
+ExperimentParameters.tree_type = "FreeDOMDataTree"
+ExperimentParameters.n_train_data = 10000
+ExperimentParameters.n_test_data = 10000
+ExperimentParameters.num_workers = 0
+
+get_torch_device.use_gpu = True
+
+HyperParameters.batch_size = 20
+HyperParameters.n_positive_samples = 5
+HyperParameters.n_negative_samples = 10
+HyperParameters.latent_dimension = 150
+HyperParameters.n_epochs = 1
+HyperParameters.train_test_split_ratio = 0.7
+
+# Optimizer Parameters
+# ======================================================================================================================
+HyperParameters.optimizer = "Adam" # Use this parameter to change the optimizer the model will use.
+HyperParameters.optimizer_parameters = {"lr": 0.001, "betas": (0.9, 0.999), "eps": 1e-07}  # Supply optimizer parameters as a Python Dict.
+
+
+# Loss Function
+# ======================================================================================================================
+HyperParameters.loss_function = @CrossEntropyLoss() # Use this parameter to change the loss function the model will use.
+
+# FreeDOM specific hyper parameters
+# ======================================================================================================================
+FreeDOMClassifier.local_module_hyper_parameters = @LocalModuleHyperParameters()
+FreeDOMClassifier.pretrained_word_embedding_model = "treelstm-vocab"
+FreeDOMClassifier.languages = ["en", "de", "no", "nl", "se", "fi"]
+
+FreeDOMStageTwoClassifier.relational_module_hyper_parameters = @RelationalModuleHyperParameters()
+
+# Local Module
+# ====================================
+LocalModuleHyperParameters.character_embedding_dim = 100
+LocalModuleHyperParameters.word_embedding_dim = 300
+LocalModuleHyperParameters.cnn_character_embedding_kernel_size = 3
+LocalModuleHyperParameters.cnn_character_embedding_filter_count = 50
+LocalModuleHyperParameters.rnn_hidden_dimension = 100
+LocalModuleHyperParameters.discrete_features_embedding_dim = 50
+LocalModuleHyperParameters.dropout_rate = 0.3
+LocalModuleHyperParameters.common_features_embedding_dim = 14

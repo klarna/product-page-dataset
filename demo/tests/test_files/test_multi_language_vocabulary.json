@@ -1,0 +1,69 @@
+{
+  "vocabularies": {
+    "first": {
+      "tokens": [
+        "first",
+        "second",
+        "third",
+        "fourth",
+        "fifth"
+      ],
+      "contains_defaults": false,
+      "metadata": {}
+    },
+    "second": {
+      "tokens": [
+        "first",
+        "second",
+        "third",
+        "fourth",
+        "fifth"
+      ],
+      "contains_defaults": false,
+      "metadata": {}
+    },
+    "third": {
+      "tokens": [
+        "first",
+        "second",
+        "third",
+        "fourth",
+        "fifth"
+      ],
+      "contains_defaults": false,
+      "metadata": {}
+    },
+    "fourth": {
+      "tokens": [
+        "first",
+        "second",
+        "third",
+        "fourth",
+        "fifth"
+      ],
+      "contains_defaults": false,
+      "metadata": {}
+    },
+    "fifth": {
+      "tokens": [
+        "first",
+        "second",
+        "third",
+        "fourth",
+        "fifth"
+      ],
+      "contains_defaults": false,
+      "metadata": {}
+    }
+  },
+  "languages": [
+    "first",
+    "second",
+    "third",
+    "fourth",
+    "fifth"
+  ],
+  "language_count": 5,
+  "token_count": 25,
+  "metadata": {}
+}

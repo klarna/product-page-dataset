@@ -1,0 +1,4 @@
+include 'gin_configs/GAT.gin'
+ExperimentParameters.run_name = 'GAT-T'
+ExperimentParameters.tree_type = 'UniversalSentenceTree'
+ExperimentParameters.n_features  = 586
