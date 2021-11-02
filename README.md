@@ -22,7 +22,7 @@ https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_produc
 
 ### You can also find individual tarballs per market (in both formats) in this bucket (on region `eu-west-1`). Structure of the bucket is as follows:
 ```
-s3://klarna-reserach-public-datasets 
+s3://klarna-research-public-datasets 
 └── klarna_product_page_dataset_50k
     ├── klarna_product_page_dataset_MHTML_50k
     │   ├── AT_test.tar.gz
