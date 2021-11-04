@@ -11,7 +11,9 @@ The MHTML format is less lossy, a browser can render these pages though any Java
 The WTL snapshots are produced by loading the MHTML pages into a chromium-based browser. To keep the WTL dataset more compact, they do not contain the screenshot of the rendered MTHML, but only its HTML, and page and element metadata with additional rendering information (bounding boxes of elements, font sizes etc.).
 For convenience, the datasets are provided with a train/test split in which no merchants in the test set are present in the training set.
 
-For more information about the contents of the datasets (statistics etc.) please refer to the following publication:
+## Corresponding Publication
+For more information about the contents of the datasets (statistics etc.) please refer to the following [ArXive paper](https://arxiv.org/abs/2111.02168).
+
 
 ## Download under the [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/):
 ### WTL format (~8GB):
