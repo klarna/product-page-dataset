@@ -12,7 +12,7 @@ The WTL snapshots are produced by loading the MHTML pages into a chromium-based 
 For convenience, the datasets are provided with a train/test split in which no merchants in the test set are present in the training set.
 
 ## Corresponding Publication
-For more information about the contents of the datasets (statistics etc.) please refer to the following [ArXive paper](https://arxiv.org/abs/2111.02168).
+For more information about the contents of the datasets (statistics etc.) please refer to the following [ArXiv paper](https://arxiv.org/abs/2111.02168).
 
 
 ## Download under the [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/):
