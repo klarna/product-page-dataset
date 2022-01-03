@@ -14,6 +14,17 @@ For convenience, the datasets are provided with a train/test split in which no m
 ## Corresponding Publication
 For more information about the contents of the datasets (statistics etc.) please refer to the following [ArXiv paper](https://arxiv.org/abs/2111.02168).
 
+If you found this dataset useful in your research, please cite the paper as follows:
+```
+@misc{hotti2021klarna,
+      title={The Klarna Product Page Dataset: A Realistic Benchmark for Web Representation Learning}, 
+      author={Alexandra Hotti and Riccardo Sven Risuleo and Stefan Magureanu and Aref Moradi and Jens Lagergren},
+      year={2021},
+      eprint={2111.02168},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
 ## Download under the [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/):
 ### WTL format (~8GB):
