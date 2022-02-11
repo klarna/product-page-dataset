@@ -6,9 +6,10 @@ various e-commerce websites. The dataset contains offline snapshots of 51,701 pr
 On each page, analysts labelled 5 elements of interest: the price of the product, its image, its name and the add-to-cart
 and go-to-cart buttons (if found). These labels are present in the HTML code as an attribute called `klarna-ai-label` taking one of the values: `Price`, `Name`, `Main picture`, `Add to cart` and `Cart`.
 
-The snapshots are available in 2 formats: as MHTML files and as [WebTraversalLibrary](https://github.com/klarna-incubator/webtraversallibrary) (WTL) snapshots.
+The snapshots are available in 3 formats: as MHTML files, as [WebTraversalLibrary](https://github.com/klarna-incubator/webtraversallibrary) (WTL) snapshots, and as screeshots.
 The MHTML format is less lossy, a browser can render these pages though any Javascript on the page is lost.
-The WTL snapshots are produced by loading the MHTML pages into a chromium-based browser. To keep the WTL dataset more compact, they do not contain the screenshot of the rendered MTHML, but only its HTML, and page and element metadata with additional rendering information (bounding boxes of elements, font sizes etc.).
+The WTL snapshots are produced by loading the MHTML pages into a chromium-based browser. To keep the WTL dataset compact, the screenshots of the rendered MTHML are provided separately; here we provide the HTML of the rendered DOM tree and additional page and element metadata with rendering information (bounding boxes of elements, font sizes etc.). The folder structure of the screenshot dataset is identical to the one the WTL dataset and can be used to complete the WTL snapshots with image information.
+
 For convenience, the datasets are provided with a train/test split in which no merchants in the test set are present in the training set.
 
 ## Corresponding Publication
