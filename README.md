@@ -6,10 +6,12 @@ various e-commerce websites. The dataset contains offline snapshots of 51,701 pr
 On each page, analysts labelled 5 elements of interest: the price of the product, its image, its name and the add-to-cart
 and go-to-cart buttons (if found). These labels are present in the HTML code as an attribute called `klarna-ai-label` taking one of the values: `Price`, `Name`, `Main picture`, `Add to cart` and `Cart`.
 
-The snapshots are available in 2 formats: as MHTML files and as [WebTraversalLibrary](https://github.com/klarna-incubator/webtraversallibrary) (WTL) snapshots.
+The snapshots are available in 3 formats: as MHTML files, as [WebTraversalLibrary](https://github.com/klarna-incubator/webtraversallibrary) (WTL) snapshots, and as screeshots.
 The MHTML format is less lossy, a browser can render these pages though any Javascript on the page is lost.
-The WTL snapshots are produced by loading the MHTML pages into a chromium-based browser. To keep the WTL dataset more compact, they do not contain the screenshot of the rendered MTHML, but only its HTML, and page and element metadata with additional rendering information (bounding boxes of elements, font sizes etc.).
+The WTL snapshots are produced by loading the MHTML pages into a chromium-based browser. To keep the WTL dataset compact, the screenshots of the rendered MTHML are provided separately; here we provide the HTML of the rendered DOM tree and additional page and element metadata with rendering information (bounding boxes of elements, font sizes etc.). The folder structure of the screenshot dataset is identical to the one the WTL dataset and can be used to complete the WTL snapshots with image information.
 For convenience, the datasets are provided with a train/test split in which no merchants in the test set are present in the training set.
+
+
 
 ## Corresponding Publication
 For more information about the contents of the datasets (statistics etc.) please refer to the following [ArXiv paper](https://arxiv.org/abs/2111.02168).
@@ -27,11 +29,14 @@ If you found this dataset useful in your research, please cite the paper as foll
 ```
 
 ## Download under the [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/):
-### WTL format (~8GB):
+### WTL format (~7GB):
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_WTL_50k.tar.gz
 
-### MHTML format (~51GB):
+### MHTML format (~47GB):
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_MHTML_50k.tar.gz
+
+### Screenshot format (~8GB)
+https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_screeshots_50k.tar.gz
 
 ### You can also find individual tarballs per market (in both formats) in this bucket (on region `eu-west-1`). Structure of the bucket is as follows:
 ```
@@ -72,8 +77,27 @@ s3://klarna-research-public-datasets
     │   ├── SE_train.tar.gz
     │   ├── US_test.tar.gz
     │   └── US_train.tar.gz
-    └── klarna_product_page_dataset_WTL_50k.tar.gz
+    ├── klarna_product_page_dataset_WTL_50k.tar.gz
+    ├── klarna_product_page_dataset_screeshots_50k
+    │   ├── AT_test.tar.gz
+    │   ├── AT_train.tar.gz
+    │   ├── DE_test.tar.gz
+    │   ├── DE_train.tar.gz
+    │   ├── FI_test.tar.gz
+    │   ├── FI_train.tar.gz
+    │   ├── GB_test.tar.gz
+    │   ├── GB_train.tar.gz
+    │   ├── NL_test.tar.gz
+    │   ├── NL_train.tar.gz
+    │   ├── NO_test.tar.gz
+    │   ├── NO_train.tar.gz
+    │   ├── SE_test.tar.gz
+    │   ├── SE_train.tar.gz
+    │   ├── US_test.tar.gz
+    │   └── US_train.tar.gz
+    └── klarna_product_page_dataset_screeshots_50k.tar.gz
 ```
+
 # Datasheets for Datasets Documentation
 
 ## Motivation
@@ -106,7 +130,7 @@ Due to limited resources, the dataset is not representative of the wider set of 
 
 ### What data does each instance consist of?
 Each example consists of a MHTML or [WebTraversalLibrary](https://github.com/klarna-incubator/webtraversallibrary)
-(WTL) clone of the loaded page.
+(WTL) clone of the loaded page. A screenshot is provided for the examples that render correctly in a mobile browser.
 
 ### Is there a label or target associated with each instance?
 On each page, there are 5 elements of interest: the price of the product, its image, its name and the add-to-cart
@@ -151,4 +175,4 @@ The data instances in the dataset were collected between 2018 and 2019.
 ## Preprocessing
 
 ### Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?
-In the case of the MHTML dataset, no. For the dataset in the WTL, the element metadata additionally contains the local node text, extracted from the source HTML.
+In the case of the MHTML dataset, no. For the dataset in the WTL, the element metadata additionally contains the local node text, extracted from the source HTML. The screenshots were manually reviewed and instances of pages not rendered correctly (e.g., where overlays, menus, or cookie dialog covered product information) were removed.
