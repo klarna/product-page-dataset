@@ -28,10 +28,10 @@ If you found this dataset useful in your research, please cite the paper as foll
 ```
 
 ## Download under the [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/):
-### WTL format (~8GB):
+### WTL format (~7GB):
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_WTL_50k.tar.gz
 
-### MHTML format (~51GB):
+### MHTML format (~47GB):
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_MHTML_50k.tar.gz
 
 
