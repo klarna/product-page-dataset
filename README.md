@@ -34,7 +34,6 @@ https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_produc
 ### MHTML format (~47GB):
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_MHTML_50k.tar.gz
 
-
 ### Screenshot format (~8GB)
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_screeshots_50k.tar.gz
 
@@ -96,8 +95,8 @@ s3://klarna-research-public-datasets
     │   ├── US_test.tar.gz
     │   └── US_train.tar.gz
     └── klarna_product_page_dataset_screeshots_50k.tar.gz
-   
 ```
+
 # Datasheets for Datasets Documentation
 
 ## Motivation
