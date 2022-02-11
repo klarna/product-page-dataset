@@ -10,6 +10,7 @@ The snapshots are available in 2 formats: as MHTML files and as [WebTraversalLib
 The MHTML format is less lossy, a browser can render these pages though any Javascript on the page is lost.
 The WTL snapshots are produced by loading the MHTML pages into a chromium-based browser. To keep the WTL dataset more compact, they do not contain the screenshot of the rendered MTHML, but only its HTML, and page and element metadata with additional rendering information (bounding boxes of elements, font sizes etc.).
 For convenience, the datasets are provided with a train/test split in which no merchants in the test set are present in the training set.
+The `screenshot` dataset contains screeshots from a subset of snapshots (about 80% of the whole dataset) that are known to render correctly and are amenable to computer vision applications.
 
 ## Corresponding Publication
 For more information about the contents of the datasets (statistics etc.) please refer to the following [ArXiv paper](https://arxiv.org/abs/2111.02168).
@@ -32,6 +33,10 @@ https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_produc
 
 ### MHTML format (~51GB):
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_MHTML_50k.tar.gz
+
+
+### Screenshot format (~8GB)
+https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_screeshots_50k.tar.gz
 
 ### You can also find individual tarballs per market (in both formats) in this bucket (on region `eu-west-1`). Structure of the bucket is as follows:
 ```
@@ -72,7 +77,26 @@ s3://klarna-research-public-datasets
     │   ├── SE_train.tar.gz
     │   ├── US_test.tar.gz
     │   └── US_train.tar.gz
-    └── klarna_product_page_dataset_WTL_50k.tar.gz
+    ├── klarna_product_page_dataset_WTL_50k.tar.gz
+    ├── klarna_product_page_dataset_screeshots_50k
+    │   ├── AT_test.tar.gz
+    │   ├── AT_train.tar.gz
+    │   ├── DE_test.tar.gz
+    │   ├── DE_train.tar.gz
+    │   ├── FI_test.tar.gz
+    │   ├── FI_train.tar.gz
+    │   ├── GB_test.tar.gz
+    │   ├── GB_train.tar.gz
+    │   ├── NL_test.tar.gz
+    │   ├── NL_train.tar.gz
+    │   ├── NO_test.tar.gz
+    │   ├── NO_train.tar.gz
+    │   ├── SE_test.tar.gz
+    │   ├── SE_train.tar.gz
+    │   ├── US_test.tar.gz
+    │   └── US_train.tar.gz
+    └── klarna_product_page_dataset_screeshots_50k.tar.gz
+   
 ```
 # Datasheets for Datasets Documentation
 
