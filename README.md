@@ -174,4 +174,4 @@ The data instances in the dataset were collected between 2018 and 2019.
 ## Preprocessing
 
 ### Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?
-In the case of the MHTML dataset, no. For the dataset in the WTL, the element metadata additionally contains the local node text, extracted from the source HTML.
+In the case of the MHTML dataset, no. For the dataset in the WTL, the element metadata additionally contains the local node text, extracted from the source HTML. The screenshots were manually reviewed and instances of pages not rendered correctly (e.g., where overlays, menus, or cookie dialog covered product information) were removed.
