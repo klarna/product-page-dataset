@@ -129,7 +129,7 @@ Due to limited resources, the dataset is not representative of the wider set of 
 
 ### What data does each instance consist of?
 Each example consists of a MHTML or [WebTraversalLibrary](https://github.com/klarna-incubator/webtraversallibrary)
-(WTL) clone of the loaded page.
+(WTL) clone of the loaded page. A screenshot is provided for the examples that render correctly in a mobile browser.
 
 ### Is there a label or target associated with each instance?
 On each page, there are 5 elements of interest: the price of the product, its image, its name and the add-to-cart
