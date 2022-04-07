@@ -36,7 +36,7 @@ https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_produc
 https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_MHTML_50k.tar.gz
 
 ### Screenshot format (~8GB)
-https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_screeshots_50k.tar.gz
+https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_screenshots_50k.tar.gz
 
 ### You can also find individual tarballs per market (in both formats) in this bucket (on region `eu-west-1`). Structure of the bucket is as follows:
 ```
