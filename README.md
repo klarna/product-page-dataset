@@ -18,13 +18,14 @@ For more information about the contents of the datasets (statistics etc.) please
 
 If you found this dataset useful in your research, please cite the paper as follows:
 ```
-@misc{hotti2021klarna,
-      title={The Klarna Product Page Dataset: A Realistic Benchmark for Web Representation Learning}, 
+@misc{hotti2024klarnaproductpagedataset,
+      title={The Klarna Product Page Dataset: Web Element Nomination with Graph Neural Networks and Large Language Models}, 
       author={Alexandra Hotti and Riccardo Sven Risuleo and Stefan Magureanu and Aref Moradi and Jens Lagergren},
-      year={2021},
+      year={2024},
       eprint={2111.02168},
       archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2111.02168}, 
 }
 ```
 
