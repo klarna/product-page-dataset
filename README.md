@@ -1,4 +1,7 @@
 # The Klarna Product Page Dataset
+
+![Alt text](product_pages.png)
+
 ## Description
 The Klarna Product Page Dataset is a dataset of publicly available pages corresponding to products sold online on
 various e-commerce websites. The dataset contains offline snapshots of 51,701 product pages collected from
