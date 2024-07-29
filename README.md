@@ -31,7 +31,7 @@ If you found this dataset useful in your research, please cite the paper as foll
 ```
 
 ## Download under the [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/):
-The hosting platform of the dataset has been changed, and the WTL, MHTML, and screenshot formats of the dataset can now be downloaded via [here](https://zenodo.org/records/12605480) Zenodo.
+The hosting platform of the dataset has been changed, and the WTL, MHTML, and screenshot formats of the dataset can now be downloaded [here](https://zenodo.org/records/12605480) via Zenodo.
 
 # Datasheets for Datasets Documentation
 
