@@ -1,5 +1,6 @@
 # The Klarna Product Page Dataset
-![Product Pages](product_pages.png)
+<img src="product_pages.png" alt="Product Pages" style="width:80%; height:80%;"/>
+
 
 
 ## Description
