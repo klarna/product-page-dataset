@@ -31,74 +31,7 @@ If you found this dataset useful in your research, please cite the paper as foll
 ```
 
 ## Download under the [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/):
-### WTL format (~7GB):
-https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_WTL_50k.tar.gz
-
-### MHTML format (~47GB):
-https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_MHTML_50k.tar.gz
-
-### Screenshot format (~8GB)
-https://klarna-research-public-datasets.s3-eu-west-1.amazonaws.com/klarna_product_page_dataset_50k/klarna_product_page_dataset_screenshots_50k.tar.gz
-
-### You can also find individual tarballs per market (in both formats) in this bucket (on region `eu-west-1`). Structure of the bucket is as follows:
-```
-s3://klarna-research-public-datasets 
-└── klarna_product_page_dataset_50k
-    ├── klarna_product_page_dataset_MHTML_50k
-    │   ├── AT_test.tar.gz
-    │   ├── AT_train.tar.gz
-    │   ├── DE_test.tar.gz
-    │   ├── DE_train.tar.gz
-    │   ├── FI_test.tar.gz
-    │   ├── FI_train.tar.gz
-    │   ├── GB_test.tar.gz
-    │   ├── GB_train.tar.gz
-    │   ├── NL_test.tar.gz
-    │   ├── NL_train.tar.gz
-    │   ├── NO_test.tar.gz
-    │   ├── NO_train.tar.gz
-    │   ├── SE_test.tar.gz
-    │   ├── SE_train.tar.gz
-    │   ├── US_test.tar.gz
-    │   └── US_train.tar.gz
-    ├── klarna_product_page_dataset_MHTML_50k.tar.gz
-    ├── klarna_product_page_dataset_WTL_50k
-    │   ├── AT_test.tar.gz
-    │   ├── AT_train.tar.gz
-    │   ├── DE_test.tar.gz
-    │   ├── DE_train.tar.gz
-    │   ├── FI_test.tar.gz
-    │   ├── FI_train.tar.gz
-    │   ├── GB_test.tar.gz
-    │   ├── GB_train.tar.gz
-    │   ├── NL_test.tar.gz
-    │   ├── NL_train.tar.gz
-    │   ├── NO_test.tar.gz
-    │   ├── NO_train.tar.gz
-    │   ├── SE_test.tar.gz
-    │   ├── SE_train.tar.gz
-    │   ├── US_test.tar.gz
-    │   └── US_train.tar.gz
-    ├── klarna_product_page_dataset_WTL_50k.tar.gz
-    ├── klarna_product_page_dataset_screeshots_50k
-    │   ├── AT_test.tar.gz
-    │   ├── AT_train.tar.gz
-    │   ├── DE_test.tar.gz
-    │   ├── DE_train.tar.gz
-    │   ├── FI_test.tar.gz
-    │   ├── FI_train.tar.gz
-    │   ├── GB_test.tar.gz
-    │   ├── GB_train.tar.gz
-    │   ├── NL_test.tar.gz
-    │   ├── NL_train.tar.gz
-    │   ├── NO_test.tar.gz
-    │   ├── NO_train.tar.gz
-    │   ├── SE_test.tar.gz
-    │   ├── SE_train.tar.gz
-    │   ├── US_test.tar.gz
-    │   └── US_train.tar.gz
-    └── klarna_product_page_dataset_screeshots_50k.tar.gz
-```
+The hosting platform of the dataset has been changed, and the WTL, MHTML, and screenshot formats of the dataset can now be downloaded via [here](https://zenodo.org/records/12605480) Zenodo.
 
 # Datasheets for Datasets Documentation
 
