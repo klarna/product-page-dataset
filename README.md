@@ -18,18 +18,19 @@ For convenience, the datasets are provided with a train/test split in which no m
 
 
 ## Corresponding Publication
-For more information about the contents of the datasets (statistics etc.) please refer to the following [ArXiv paper](https://arxiv.org/abs/2111.02168).
+For more information about the contents of the datasets (statistics etc.) please refer to the following [TMLR paper](https://openreview.net/pdf?id=zz6FesdDbB).
 
 If you found this dataset useful in your research, please cite the paper as follows:
 ```
-@misc{hotti2024klarnaproductpagedataset,
-      title={The Klarna Product Page Dataset: Web Element Nomination with Graph Neural Networks and Large Language Models}, 
-      author={Alexandra Hotti and Riccardo Sven Risuleo and Stefan Magureanu and Aref Moradi and Jens Lagergren},
-      year={2024},
-      eprint={2111.02168},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2111.02168}, 
+@article{
+hotti2024the,
+title={The Klarna Product Page Dataset: Web Element Nomination with Graph Neural Networks and Large Language Models},
+author={Alexandra Hotti and Riccardo Sven Risuleo and Stefan Magureanu and Aref Moradi and Jens Lagergren},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2024},
+url={https://openreview.net/forum?id=zz6FesdDbB},
+note={}
 }
 ```
 
